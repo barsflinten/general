@@ -1,0 +1,645 @@
+/*Diese CSS-Datei beinhaltet die Style-Anweisungen für die index.php*/
+
+
+.delta
+
+ {
+  display:flex;
+  flex-direction:row;
+  
+ }
+
+.red
+{
+
+color:red;
+}
+
+html
+
+{
+	max-width:100vw;
+}
+
+textarea
+{
+ resize: none;
+ margin:1em;
+
+}
+span 
+{
+	color:FFFFFF;
+	background-color:#66ff66;
+	
+	padding:0.5em;
+	border-radius:10px;
+	text-aling:center;
+	/*display:flex;*/
+	margin:2.5em;
+}
+
+.a
+{
+
+}
+.margin
+{
+margin:1.5em;
+}
+.maxcont_int
+{
+
+}
+
+body
+{
+	
+max-width:100vw;	
+}
+
+p
+{
+	margin:1em;
+	
+}
+
+th
+{
+	color:;
+	text-decoration-line:underline;
+}
+
+*
+{
+
+}
+
+
+.button
+{
+	border-radius:10px 3px 10px 3px;
+	padding:0.5em ;
+	margin:1em;
+	color:#F2F2F2;
+	background-color:#8c8c8c;
+}
+
+
+.header							/*definert aussehen des herderberiches*/			
+{
+
+display:flex;
+flex-direction:row;
+flex-wrap: nowrap;
+justify-content:center;
+
+
+
+
+background-color:#F2F2F2;
+color:green;
+height:7%;
+border-style:solid;
+border-width:1px;
+}
+
+.header_div
+
+{
+display:flex;
+background-color:#ff6600;
+color:red;
+padding:0.5em;
+border-style:solid;
+border-width:1px;
+}
+
+.container_1	/*Probekontainer im Header-Bereich*/
+{
+	
+
+			/*setzt die stelle im Flexcontainer auf 1*/
+text-align:center;
+border-style:solid;
+border-width:1px;
+
+}
+
+
+
+
+
+.body			/*definert aussehen des body-breiches*/
+{
+
+background-color:#ffffff;
+
+height:80%;
+border-style:solid;
+border-width:1px;
+}
+
+.footer			/*definert aussehen des footer-breiches*/
+{
+display:flex;
+justify-content:center;
+background-color:#F2F2F2;
+
+height:5em;
+border-style:solid;
+border-width:1px;
+}
+
+
+
+/*Loginbereich*/
+
+.login_form
+{
+	
+	background-color:#F2F2F2;
+	padding:1em;
+	border-radius:10px;
+	text-align:center;
+}
+
+.body_login
+{
+
+display:flex;
+flex-direction:column;
+background-color:#ffffff;
+
+min-height:80%;
+border-style:solid;
+border-width:1px;
+}
+
+.margin_login_form
+
+{
+
+
+
+}
+
+.margin_login_form_text_style
+{
+	color:grey;
+	text-align:center;
+	margin:1em;
+	
+
+}
+.margin_login_form_text_style
+{
+
+}
+
+.beschreibungstext
+{
+	color:grey;
+	text-align:center;
+	height:15em;
+	width:10em;
+}
+
+/*Place oder Bereich*/
+
+
+.body_place_order
+
+{
+background-color:#ffffff;
+
+height:80%;
+border-style:solid;
+border-width:1px;
+}
+
+/*definiert den Register bereich*/
+
+
+
+
+.register_form
+{
+	
+	display:flex;
+	flex-direction:column;
+	
+	max-with:100%;
+	background-color:#F2F2F2;
+
+	border-radius:10px;
+	text-align:center;
+	
+}
+
+.register_form_new
+{
+	
+	
+
+	
+	background-color:#F2F2F2;
+	padding:1em;
+	border-radius:11px;
+	text-align:center;
+	margin-top:14em;
+	margin-bottom:10em;
+	
+}
+
+.register_form_captcha
+{
+	
+	display:flex;
+	flex-direction:column;
+	margin-top:1em;
+	margin-bottom:1em;
+	width:60%;
+	
+	background-color:#F2F2F2;
+	padding:1em;
+	border-radius:10px;
+	text-align:center;
+}
+
+.captcha_pic
+
+{
+	margin:0.5em;
+	border-radius:10px;
+	background-color:white;
+}
+
+.body_register
+
+
+{
+		
+	margin:30px;	
+	display:flex;
+	flex-direction:column;
+	background-color:#FFFFFF';
+
+
+		border-radius:10px;
+}
+
+.row
+
+{
+	display:flex;
+	flex-direction:row;
+	padding:1em;
+	
+}
+
+
+
+.picture_limit
+
+{
+	
+	height:100px;
+	width:100px;
+	
+}
+
+
+.backend_body
+{
+		display:flex;
+	flex-direction:column;
+	margin-top:1em;
+	margin-bottom:1em;
+	/*beim reponsiv machen entfernen*/
+	
+	background-color:#F2F2F2;
+	padding:1em;
+	border-radius:10px;
+	text-align:center;
+}
+
+
+.body_index
+{
+	background-color:white;
+	padding:2em;
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+}
+.table
+{
+
+background-color:white;
+border-style:solid;
+border-width:1px;
+border-radius:10px;
+padding:1em;
+
+}
+
+.table_cell
+{
+	padding:0.25em;
+	text-align:center;
+	border-style:solid;
+	border-width:1px;
+}
+
+
+.table_input
+
+{
+	text-align:center;
+}
+
+
+.product_pic
+
+{
+
+	box-shadow: 20px 10px ;
+	 box-shadow:20px 20px  grey; 
+	border:1px;
+	border-style:solid;
+	max-width:50%;
+	
+}
+
+
+.product_pic_backend
+
+{
+	height:50%;
+	width:50%;
+	box-shadow: 20px 10px ;
+	 box-shadow:20px 20px  grey; 
+	border:1px;
+	border-style:solid;
+	
+	
+}
+
+.product_pic_backend_selct
+{
+	height:12.5%;
+	width:12.5%;
+	box-shadow: 20px 10px ;
+	 box-shadow:20px 20px  grey; 
+	border:1px;
+	border-style:solid;
+}
+
+.product_container
+
+{
+	display:flex;
+	flex-direction:column;
+}
+
+.product_side_column
+
+{
+
+	align-self:flex-start;
+	
+
+	padding:10px
+}
+
+
+.product_display
+
+{
+	display:flex;
+
+	margin-top:3em;
+	
+	background-color:#F2F2F2;
+	padding:1em;
+
+
+}
+
+
+.row_product_display
+{
+
+	
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	
+	background-color:#FFFFFF;
+	width:100%;
+}
+
+
+.row_pic_select
+{
+	
+	z-index:0;
+	/*opacity: 0.5;*/
+  	/*filter: alpha(opacity=30); */
+  
+  	max-width:50%;
+  	max-heigt:60%;
+	background-color:#F2F2F2;
+	border-radius:20px 3px 20px 3px;
+	
+	
+}
+
+.pic_selection
+{
+	height:8em;
+	width:8em;
+}
+
+.cart
+{
+	
+	padding:1em;
+	
+	display:flex;
+	flex-direction:column;
+	align-items:flex-start;
+	width:20%;
+	background-color:#FFFFFF;
+	margin:1em;
+	border:0.5em;
+	border-color:#F2F2F2;
+	 border-style:solid ;
+ box-shadow:20px 20px  #F2F2F2;
+
+}
+
+.cart_weld
+{
+	background-color:#F2F2F2;
+	margin:10px;
+	border-radius:20px 3px 20px 3px;
+	padding:1em;
+}
+
+.cart_master_container
+{
+	display:flex;
+	flex-direction:column;
+	background-color:#F2F2F2;
+	z-index:0;
+}
+
+.cart_hader
+{	display:flex;
+	
+	background-color:f2f2f2;
+	margin:0.5em;
+}	
+
+
+
+.cointainer_cart
+{
+	
+	display:flex;
+	flex-direction:column;
+}
+
+
+
+.entry_cart
+
+{
+	display:flex;
+	background-color:red;
+	padding:1em;
+}
+.chiled1
+{
+ order:;
+	background-color:f2f2f2;
+
+	margin:0.5em;
+	
+}
+.chiled2
+{
+order:;
+background-color:f2f2f2;
+
+margin:0.5em;
+}
+.chiled3
+{
+	background-color:f2f2f2;
+order:;
+	margin:0.5em;
+}
+.chiled4
+{
+	background-color:f2f2f2;
+ order:1;
+	margin:0.5em;
+}
+
+.chiled5
+{
+order:;	
+}
+
+.cartcheck_present
+{
+	display:flex;
+	flex-direction:row;
+
+	padding:1em;
+	
+
+}
+.posten
+{
+	display:flex;
+	flex-direction:column;
+}
+
+.form
+{
+	display:flex;
+	flex-direction:row;
+	/*ackground-color:green;*/
+
+}
+
+.containder_form
+{	
+	background-color:f2f2f2;
+	order:7;
+	display:flex;
+}
+
+.cart_check
+{
+	padding:2em;
+	display:flex;
+	justify-content:center;
+}
+
+
+.master_container
+
+{
+	display:flex;
+	flex-direction:row;
+
+	z-index:3;
+}
+
+
+.thankyou_body
+{
+	padding:2em;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	height:56.5%;
+}
+.body_master
+{
+	display:flex;
+	flex-direction:column;
+	width:60%;
+}
+
+.cart_master
+
+{
+	display:flex;
+	flex-direction:column;
+}
+
+.cart_master_1
+{
+	display:flex;
+	flex-direction:column;
+	 align-items:center ;
+
+}
+
+.flex_cont{
+	diesplay:flex;
+	flec-direction:row;
+	width:25%s;
+}
+
+.child7
+
+{
+	order:1;
+}
